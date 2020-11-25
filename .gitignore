@@ -1,0 +1,14 @@
+.project
+.prefs
+.pydevproject
+./Cora/.idea/
+./Cora/.idea
+./Pumbed/.idea/
+./Pumbed/.idea
+./Citeseer/.idea/
+./Citeseer/.idea
+.DS_Store
+.cache
+*.pyc
+*.html
+*.xlm
