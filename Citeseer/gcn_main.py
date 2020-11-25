@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+
 # coding: utf-8
 
 
@@ -19,7 +19,7 @@ import torch.optim as optim
 import matplotlib.pyplot as plt
 
 
-# 超参数定义
+
 learning_rate = 0.1
 weight_decay = 5e-4
 epochs = 200
@@ -29,7 +29,7 @@ epochs = 200
 
 
 
-# 模型定义：Model, Loss, Optimizer
+
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model = GCN_Net().to(device)
 criterion = nn.CrossEntropyLoss().to(device)
@@ -37,7 +37,7 @@ optimizer = optim.Adam(model.parameters(), lr=learning_rate, weight_decay=weight
 
 
 
-# 加载数据，并转换为torch.Tensor
+
 dataset = dgl.data.CiteseerGraphDataset()
 graph = dataset[0]
 tensor_x = graph.ndata['feat'].to(device)
@@ -64,15 +64,14 @@ def train():
     model.train()
     train_y = tensor_y[tensor_train_mask]
     for epoch in range(epochs):
-        logits = model(tensor_adjacency, tensor_x)  # 前向传播
-        train_mask_logits = logits[tensor_train_mask]   # 只选择训练节点进行监督
-        loss = criterion(train_mask_logits, train_y)    # 计算损失值
+        logits = model(tensor_adjacency, tensor_x)  
+        train_mask_logits = logits[tensor_train_mask]  
+        loss = criterion(train_mask_logits, train_y)   
         optimizer.zero_grad()
-        loss.backward()     # 反向传播计算参数的梯度
-        optimizer.step()    # 使用优化方法进行梯度更新
-        train_acc, _, _ = test(tensor_train_mask)     # 计算当前模型训练集上的准确率
-        val_acc, _, _ = test(tensor_val_mask)     # 计算当前模型在验证集上的准确率
-        # 记录训练过程中损失值和准确率的变化，用于画图
+        loss.backward()     
+        optimizer.step()   
+        train_acc, _, _ = test(tensor_train_mask)     
+        val_acc, _, _ = test(tensor_val_mask)     
         loss_history.append(loss.item())
         val_acc_history.append(val_acc.item())
         print("Epoch {:03d}: Loss {:.4f}, TrainAcc {:.4}, ValAcc {:.4f}".format(
@@ -80,7 +79,7 @@ def train():
 
     return loss_history, val_acc_history
 
-# 测试函数
+
 def test(mask):
     model.eval()
     with torch.no_grad():
@@ -91,7 +90,6 @@ def test(mask):
     return accuarcy, test_mask_logits.cpu().numpy(), tensor_y[mask].cpu().numpy()
 
 
-# In[13]:
 
 
 def plot_loss_with_acc(loss_history, val_acc_history):

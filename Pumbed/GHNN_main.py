@@ -1,9 +1,7 @@
-#!/usr/bin/env python
+
 # coding: utf-8
 
 
-
-# In[1]:
 import os
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
@@ -22,24 +20,18 @@ from torch_sparse import spspmm, spmm
 import matplotlib.pyplot as plt
 
 
-
-# 超参数定义
 learning_rate = 0.1
 weight_decay = 5e-4
 epochs = 200
 ncount=19717
 
 
-# 模型定义：Model, Loss, Optimizer
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model = GHNN_Net().to(device)
 criterion = nn.CrossEntropyLoss().to(device)
 optimizer = optim.Adam(model.parameters(), lr=learning_rate, weight_decay=weight_decay)
 
 
-
-
-# 加载数据，并转换为torch.Tensor
 dataset = dgl.data.PubmedGraphDataset()
 graph = dataset[0]
 tensor_x = graph.ndata['feat'].to(device)
@@ -106,9 +98,6 @@ def test(mask):
     return accuarcy, test_mask_logits.cpu().numpy(), tensor_y[mask].cpu().numpy()
 
 
-# In[13]:
-
-
 def plot_loss_with_acc(loss_history, val_acc_history):
     fig = plt.figure()
     ax1 = fig.add_subplot(111)
@@ -133,7 +122,6 @@ test_acc, test_logits, test_label = test(tensor_test_mask)
 print("Test accuarcy: ", test_acc.item())
 
 
-# In[14]:
 plot_loss_with_acc(loss, val_acc)
 
 

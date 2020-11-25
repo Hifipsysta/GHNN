@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe796cb6-6c7b-404a-9f63-1e7f4ccdab36" name="Default Changelist" comment="" />
+    <list default="true" id="fe796cb6-6c7b-404a-9f63-1e7f4ccdab36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Cora/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GHNN_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/GHNN_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gcn_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/gcn_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cora/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Cora/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cora/GHNN_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Cora/GHNN_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pumbed/GHNN_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pumbed/GHNN_main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +22,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="JupyterTrust" id="a9ec1663-3eba-428c-878e-3369198ea6f5" />
   <component name="ProjectId" id="1ijgdA2W7c1plfGQBxKr51oygvE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,6 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -185,6 +198,8 @@
       <workItem from="1606278239985" duration="539000" />
       <workItem from="1606284033340" duration="24000" />
       <workItem from="1606284148626" duration="16000" />
+      <workItem from="1606291458781" duration="1738000" />
+      <workItem from="1606300341780" duration="18000" />
     </task>
     <servers />
   </component>
@@ -217,35 +232,35 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="1067" y="153" key="#可有可无/0.23.1680.1027@0.23.1680.1027" timestamp="1602433533910" />
-    <state width="1295" height="264" key="GridCell.Tab.0.bottom" timestamp="1606284715929">
+    <state width="1295" height="264" key="GridCell.Tab.0.bottom" timestamp="1606300359659">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="258" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603095771812" />
-    <state width="1295" height="264" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1606284715929" />
-    <state width="1295" height="264" key="GridCell.Tab.0.center" timestamp="1606284715929">
+    <state width="1638" height="264" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606291648999" />
+    <state width="1295" height="264" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1606300359659" />
+    <state width="1295" height="264" key="GridCell.Tab.0.center" timestamp="1606300359658">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="258" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603095771811" />
-    <state width="1295" height="264" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1606284715929" />
-    <state width="1295" height="264" key="GridCell.Tab.0.left" timestamp="1606284715928">
+    <state width="1638" height="264" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606291648998" />
+    <state width="1295" height="264" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1606300359658" />
+    <state width="1295" height="264" key="GridCell.Tab.0.left" timestamp="1606300359658">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="258" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603095771810" />
-    <state width="1295" height="264" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1606284715928" />
-    <state width="1295" height="264" key="GridCell.Tab.0.right" timestamp="1606284715929">
+    <state width="1638" height="264" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606291648998" />
+    <state width="1295" height="264" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1606300359658" />
+    <state width="1295" height="264" key="GridCell.Tab.0.right" timestamp="1606300359659">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="258" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603095771811" />
-    <state width="1295" height="264" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1606284715929" />
-    <state x="442" y="371" key="com.intellij.ide.util.TipDialog" timestamp="1606284148649">
+    <state width="1638" height="264" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606291648999" />
+    <state width="1295" height="264" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1606300359659" />
+    <state x="442" y="371" key="com.intellij.ide.util.TipDialog" timestamp="1606291459794">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="442" y="371" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1606284148649" />
+    <state x="442" y="371" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1606291459794" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/chapter5$mian_py.coverage" NAME="mian.py Coverage Results" MODIFIED="1602515558854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chapter5$GHNN_main.coverage" NAME="GHNN_main Coverage Results" MODIFIED="1606284046174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Citeseer$GHNN_main.coverage" NAME="GHNN_main Coverage Results" MODIFIED="1606284715920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Citeseer$GHNN_main.coverage" NAME="GHNN_main Coverage Results" MODIFIED="1606300343172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chapter5$gcn_main2.coverage" NAME="GHNN_main Coverage Results" MODIFIED="1602486727059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chapter5$.coverage" NAME="可有可无 Coverage Results" MODIFIED="1602484181450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chapter5$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1602514021057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../WWW实验/upload4（较好）" />

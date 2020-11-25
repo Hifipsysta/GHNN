@@ -1,9 +1,7 @@
-#!/usr/bin/env python
+
 # coding: utf-8
 
 
-
-# In[1]:
 import os
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
@@ -23,14 +21,14 @@ import matplotlib.pyplot as plt
 
 
 
-# 超参数定义
+
 learning_rate = 0.1
 weight_decay = 5e-4
 epochs = 200
 ncount=3327
 
 
-# 模型定义：Model, Loss, Optimizer
+
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model = GHNN_Net().to(device)
 criterion = nn.CrossEntropyLoss().to(device)
@@ -39,7 +37,7 @@ optimizer = optim.Adam(model.parameters(), lr=learning_rate, weight_decay=weight
 
 
 
-# 加载数据，并转换为torch.Tensor
+
 dataset = dgl.data.CiteseerGraphDataset()
 graph = dataset[0]
 tensor_x = graph.ndata['feat'].to(device)
@@ -64,13 +62,13 @@ values = torch.from_numpy(identity_coo_.data.astype(np.float32))
 identity_tensor_ = torch.sparse.FloatTensor(indices, values,
                                             (ncount, ncount)).to(device)
 poly_item1 = 1 * identity_tensor_
-poly_item2 = 2 * Laplacian_tensor_
+poly_item2 = 1 * Laplacian_tensor_
 print(type(Laplacian_tensor_.to_dense()))
 inx3,val3 = spspmm(indices,values, indices,values,ncount,ncount,ncount)
 poly_item3 = torch.sparse.FloatTensor(inx3, val3,(ncount, ncount)).to(device)
 inx4,val4 = spspmm(inx3, val3, indices, values, ncount, ncount, ncount)
 poly_item4 = torch.sparse.FloatTensor(inx4, val4,(ncount, ncount)).to(device)
-sparse_poly = 0*poly_item1 + poly_item2 + 0 * poly_item3 + 0 * poly_item4
+sparse_poly = 0*poly_item1 + 1.08* poly_item2 + 0 * poly_item3 + 0 * poly_item4
 
 
 def train():
@@ -106,26 +104,6 @@ def test(mask):
     return accuarcy, test_mask_logits.cpu().numpy(), tensor_y[mask].cpu().numpy()
 
 
-# In[13]:
-
-
-def plot_loss_with_acc(loss_history, val_acc_history):
-    fig = plt.figure()
-    ax1 = fig.add_subplot(111)
-    ax1.plot(range(len(loss_history)), loss_history,
-             c=np.array([255, 71, 90]) / 255.)
-    plt.ylabel('Loss')
-    
-    ax2 = fig.add_subplot(111, sharex=ax1, frameon=False)
-    ax2.plot(range(len(val_acc_history)), val_acc_history,
-             c=np.array([79, 179, 255]) / 255.)
-    ax2.yaxis.tick_right()
-    ax2.yaxis.set_label_position("right")
-    plt.ylabel('ValAcc')
-    
-    plt.xlabel('Epoch')
-    plt.title('Training Loss & Validation Accuracy')
-    plt.show()
 
 
 loss, val_acc = train()
@@ -133,8 +111,7 @@ test_acc, test_logits, test_label = test(tensor_test_mask)
 print("Test accuarcy: ", test_acc.item())
 
 
-# In[14]:
-plot_loss_with_acc(loss, val_acc)
+
 
 
 

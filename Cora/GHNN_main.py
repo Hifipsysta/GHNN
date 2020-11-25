@@ -1,12 +1,5 @@
-#!/usr/bin/env python
 # coding: utf-8
 
-# <h1>Table of Contents<span class="tocSkip"></span></h1>
-# <div class="toc"><ul class="toc-item"><li><span><a href="#基于Cora数据集的GCN节点分类" data-toc-modified-id="基于Cora数据集的GCN节点分类-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>基于Cora数据集的GCN节点分类</a></span><ul class="toc-item"><li><span><a href="#数据准备" data-toc-modified-id="数据准备-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>数据准备</a></span></li><li><span><a href="#图卷积层定义" data-toc-modified-id="图卷积层定义-1.2"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>图卷积层定义</a></span></li><li><span><a href="#模型定义" data-toc-modified-id="模型定义-1.3"><span class="toc-item-num">1.3&nbsp;&nbsp;</span>模型定义</a></span></li><li><span><a href="#模型训练" data-toc-modified-id="模型训练-1.4"><span class="toc-item-num">1.4&nbsp;&nbsp;</span>模型训练</a></span></li></ul></li></ul></div>
-
-# # 基于Cora数据集的GCN节点分类
-
-# In[1]:
 import os
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
@@ -24,30 +17,25 @@ from torch_sparse import spspmm, spmm
 import matplotlib.pyplot as plt
 
 
-
-# 超参数定义
 learning_rate = 0.1
 weight_decay = 5e-4
 epochs = 200
 
 
-# 模型定义：Model, Loss, Optimizer
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model = GHNN_Net().to(device)
 criterion = nn.CrossEntropyLoss().to(device)
 optimizer = optim.Adam(model.parameters(), lr=learning_rate, weight_decay=weight_decay)
 
 
-
-# 加载数据，并转换为torch.Tensor
 dataset = CoraData().data
-x = dataset.x / dataset.x.sum(1, keepdims=True)  # 归一化数据，使得每一行和为1
+x = dataset.x / dataset.x.sum(1, keepdims=True) 
 tensor_x = torch.from_numpy(x).to(device)
 tensor_y = torch.from_numpy(dataset.y).to(device)
 tensor_train_mask = torch.from_numpy(dataset.train_mask).to(device)
 tensor_val_mask = torch.from_numpy(dataset.val_mask).to(device)
 tensor_test_mask = torch.from_numpy(dataset.test_mask).to(device)
-normalized_Laplacian = CoraData.normalization(dataset.adjacency)   # 规范化邻接矩阵
+normalized_Laplacian = CoraData.normalization(dataset.adjacency)  
 indices = torch.from_numpy(np.asarray([normalized_Laplacian.row,
                                        normalized_Laplacian.col]).astype('int64')).long()
 values = torch.from_numpy(normalized_Laplacian.data.astype(np.float32))
@@ -62,13 +50,13 @@ values = torch.from_numpy(identity_coo_.data.astype(np.float32))
 identity_tensor_ = torch.sparse.FloatTensor(indices, values,
                                             (2708, 2708)).to(device)
 poly_item1 = identity_tensor_
-poly_item2 = 1.05 * Laplacian_tensor_
+poly_item2 = 1.08 * Laplacian_tensor_
 print(type(Laplacian_tensor_.to_dense()))
 inx3,val3 = spspmm(indices,values, indices,values,2708,2708,2708)
 poly_item3 = torch.sparse.FloatTensor(inx3, val3,(2708, 2708)).to(device)
 inx4,val4 = spspmm(inx3, val3, indices, values, 2708, 2708, 2708)
 poly_item4 = torch.sparse.FloatTensor(inx4, val4,(2708, 2708)).to(device)
-sparse_poly = 0*poly_item1 +  poly_item2 +  0* poly_item3 + 0 * poly_item4   # 2708*2708
+sparse_poly = 0*poly_item1 +  poly_item2 +  0* poly_item3 + 0 * poly_item4   
 
 def train():
     loss_history = []
@@ -103,9 +91,6 @@ def test(mask):
     return accuarcy, test_mask_logits.cpu().numpy(), tensor_y[mask].cpu().numpy()
 
 
-# In[13]:
-
-
 def plot_loss_with_acc(loss_history, val_acc_history):
     fig = plt.figure()
     ax1 = fig.add_subplot(111)
@@ -130,7 +115,6 @@ test_acc, test_logits, test_label = test(tensor_test_mask)
 print("Test accuarcy: ", test_acc.item())
 
 
-# In[14]:
 plot_loss_with_acc(loss, val_acc)
 
 
