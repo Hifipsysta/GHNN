@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe796cb6-6c7b-404a-9f63-1e7f4ccdab36" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="a9ec1663-3eba-428c-878e-3369198ea6f5" />
+  <component name="ProjectId" id="1ijgdA2W7c1plfGQBxKr51oygvE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.GHNN_main">
+    <configuration name="可有可无" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chapter5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/可有可无.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GCN_Cora" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chapter5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../【Criterion】GCN_Citeseer_direct/source" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../【Criterion】GCN_Citeseer_direct/source/GCN_Cora.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GHNN_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chapter5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GHNN_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mian.py" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chapter5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gcn_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chapter5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../WWW实验/upload4（较好）" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../WWW实验/upload4（较好）/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.GHNN_main" />
+        <item itemvalue="Python.mian.py" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.GCN_Cora" />
+        <item itemvalue="Python.可有可无" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe796cb6-6c7b-404a-9f63-1e7f4ccdab36" name="Default Changelist" comment="" />
+      <created>1602426499685</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602426499685</updated>
+      <workItem from="1602426503127" duration="5000" />
+      <workItem from="1602426528219" duration="31003000" />
+      <workItem from="1602487856196" duration="3000" />
+      <workItem from="1602487884987" duration="1000" />
+      <workItem from="1602487899732" duration="1532000" />
+      <workItem from="1602510736589" duration="3460000" />
+      <workItem from="1602514220280" duration="92000" />
+      <workItem from="1602514323724" duration="51000" />
+      <workItem from="1602514382282" duration="1822000" />
+      <workItem from="1602888059675" duration="552000" />
+      <workItem from="1602927871509" duration="85000" />
+      <workItem from="1603095632342" duration="152000" />
+      <workItem from="1603096137282" duration="79000" />
+      <workItem from="1603096536849" duration="59000" />
+      <workItem from="1606278239985" duration="539000" />
+      <workItem from="1606284033340" duration="24000" />
+      <workItem from="1606284148626" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="481" y="153" key="#GCN_Cora" timestamp="1602511643925">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="481" y="133" key="#GCN_Cora/0.0.1680.1050@0.0.1680.1050" timestamp="1602426997498" />
+    <state x="481" y="153" key="#GCN_Cora/0.23.1680.1027@0.23.1680.1027" timestamp="1602511643925" />
+    <state x="929" y="153" key="#gcn_main2" timestamp="1602444977999">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="929" y="153" key="#gcn_main2/0.23.1680.1027@0.23.1680.1027" timestamp="1602444977999" />
+    <state x="1067" y="153" key="#graphheat_main" timestamp="1602435229072">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="1067" y="153" key="#graphheat_main/0.23.1680.1027@0.23.1680.1027" timestamp="1602435229072" />
+    <state x="1067" y="153" key="#layer" timestamp="1602480138907">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="1067" y="153" key="#layer/0.23.1680.1027@0.23.1680.1027" timestamp="1602480138907" />
+    <state x="298" y="194" key="#test2" timestamp="1602514021033">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="298" y="194" key="#test2/0.23.1680.1027@0.23.1680.1027" timestamp="1602514021033" />
+    <state x="1067" y="153" key="#可有可无" timestamp="1602433533910">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="1067" y="153" key="#可有可无/0.23.1680.1027@0.23.1680.1027" timestamp="1602433533910" />
+    <state width="1295" height="264" key="GridCell.Tab.0.bottom" timestamp="1606284715929">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="258" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603095771812" />
+    <state width="1295" height="264" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1606284715929" />
+    <state width="1295" height="264" key="GridCell.Tab.0.center" timestamp="1606284715929">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="258" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603095771811" />
+    <state width="1295" height="264" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1606284715929" />
+    <state width="1295" height="264" key="GridCell.Tab.0.left" timestamp="1606284715928">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="258" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603095771810" />
+    <state width="1295" height="264" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1606284715928" />
+    <state width="1295" height="264" key="GridCell.Tab.0.right" timestamp="1606284715929">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="258" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603095771811" />
+    <state width="1295" height="264" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1606284715929" />
+    <state x="442" y="371" key="com.intellij.ide.util.TipDialog" timestamp="1606284148649">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="442" y="371" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1606284148649" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/chapter5$mian_py.coverage" NAME="mian.py Coverage Results" MODIFIED="1602515558854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter5$GHNN_main.coverage" NAME="GHNN_main Coverage Results" MODIFIED="1606284046174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Citeseer$GHNN_main.coverage" NAME="GHNN_main Coverage Results" MODIFIED="1606284715920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter5$gcn_main2.coverage" NAME="GHNN_main Coverage Results" MODIFIED="1602486727059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter5$.coverage" NAME="可有可无 Coverage Results" MODIFIED="1602484181450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter5$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1602514021057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../WWW实验/upload4（较好）" />
+    <SUITE FILE_PATH="coverage/chapter5$graphheat_main.coverage" NAME="graphheat_main Coverage Results" MODIFIED="1602478562479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter5$GCN_Cora.coverage" NAME="GCN_Cora Coverage Results" MODIFIED="1602512250000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../【Criterion】GCN_Citeseer_direct/source" />
+  </component>
+</project>
