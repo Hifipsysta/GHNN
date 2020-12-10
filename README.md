@@ -9,8 +9,8 @@ The Pytorch implementation of Graph Hilbert Neural Network
 - matplotlib==3.2.1
 
 # Run the code
-cd GraphHilbertNeuralNetwork  
-cd Cora  
+cd GHNN 
+cd Cora/Citeseer/Pubmed  
 python GHNN_main.py
 
 # Acknowledgement
